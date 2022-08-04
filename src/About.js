@@ -1,0 +1,4 @@
+import React from 'react'
+import './About.css'
+function About(){return(<div className='about-content'><div className="info1"><div className='freetogame'><h3 className='decapitalize' id='api'>Data taken from<br/>FreeToGame Api</h3></div><div className='a1 link1'><a href="https://www.freetogame.com/api-doc" target='blank_'>More information</a></div></div><div className='info2 a2'><a href="https://bootswatch.com/lux/">Bootswatch:Lux</a><br/>Used for Styling</div><div className='info1'><div className="a1"><a href="https://reactstrap.github.io/?path=/docs/components-dropdown--dropdown" target='blank_'>Reactstrap</a></div><h4 className='decapitalize'>For Filter Dropdowns</h4></div></div>)}
+export default About
