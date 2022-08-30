@@ -1,7 +1,14 @@
 import React from 'react'
 import './App.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import{Link}from 'react-router-dom';function Navbar(){const handleClick=(btn)=>{btn.blur()}
-return(<div><nav className="navbar navbar-expand navbar-dark bg-dark"><Link className="navbar-brand" to="/">Games DB</Link>
+AOS.init({
+  duration: 670,
+  offset: 0,
+  once: true
+});
+return(<div><nav data-aos='fade-down' className="navbar navbar-expand navbar-dark bg-dark"><Link className="navbar-brand" to="/">Games DB</Link>
 <button
 className="navbar-toggler"
 type="button"
@@ -14,10 +21,5 @@ aria-label="Toggle navigation">
         <Link className="nav-link" to="/database" onClick={(e) => handleClick(e.target)}>
           Database
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/about" onClick={(e) => handleClick(e.target)}>
-          About
-        </Link>
-        </li></ul></div></nav></div>)}
+      </li></ul></div></nav></div>)}
 export default Navbar
