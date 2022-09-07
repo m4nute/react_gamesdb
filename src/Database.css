@@ -1,1 +1,52 @@
-.content2{margin-top:0;display:flex;width:100%;flex-direction:row;flex-wrap:wrap;justify-content:space-evenly;margin-left:0}.columns{display:flex;flex-direction:row;min-height:93vh;margin-top:7vh}.filters{height:25vh}.database-tab{overflow-x:hidden}@media only screen and (max-width:650px){.filter-dropdowns button{width:95%;text-align:center;font-size:.7rem;padding:.6rem}.filter-dropdowns{height:12vh}.filter-genre{width:12vw}.filter-platform{width:12vw}.filter-buttons{width:50%!important}.filters{height:17vh}}@media only screen and (max-width:750px){.filter-dropdowns button{width:95%;text-align:center;font-size:.7rem;padding:.6rem}}
+.content2{
+    margin-top:0;
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin-left:0
+}
+.columns{
+    display:flex;
+    flex-direction:row;
+    min-height:93vh;
+    margin-top:7vh
+}
+.filters{
+    height:25vh
+}
+.database-tab{
+    overflow-x:hidden
+}
+@media only screen and (max-width:650px){
+    .filter-dropdowns button{
+        width:95%;
+        text-align:center;
+        font-size:.7rem;
+        padding:.6rem
+    }
+    .filter-dropdowns{
+        height:12vh
+    }
+    .filter-genre{
+        width:12vw
+    }
+    .filter-platform{
+        width:12vw
+    }
+    .filter-buttons{
+        width:50%!important
+    }
+    .filters{
+        height:17vh
+    }
+}
+@media only screen and (max-width:750px){
+    .filter-dropdowns button{
+        width:95%;
+        text-align:center;
+        font-size:.7rem;
+        padding:.6rem
+    }
+}
