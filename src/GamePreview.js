@@ -1,7 +1,7 @@
 import React from 'react'
 import './GamePreview.css'
 function GamePreview(props) {
-    const handleClick = () => { window.open(props.game.game_url, "_blank") }
+    const handleClick = () => {  }
 
     return (<div className='game'>
         <div className="column1">
