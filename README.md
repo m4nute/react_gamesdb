@@ -1,4 +1,4 @@
-Site is hosted in following link: 
+Site is hosted in the following link: 
 
 https://games-db-api.netlify.app/
 
